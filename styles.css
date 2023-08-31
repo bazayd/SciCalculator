@@ -1,7 +1,20 @@
+/* Variables */
+/* Mixins */
 body {
-  background: black;
+  background: #c6c7c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
 }
 
-h1 {
-  color: green;
+.container {
+  background: #eef0f2;
+  padding: 300px 500px;
+  border-radius: 10px;
+}
+
+.header {
+  background: #A2999E;
 }/*# sourceMappingURL=styles.css.map */

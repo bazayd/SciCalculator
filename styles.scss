@@ -1,7 +1,29 @@
+/* Variables */
+$background-color: #c6c7c4;
+$primary-color: #eef0f2;
+$secondary-color: #A2999E;
+
+/* Mixins */
+
+
 body {
-    background: black;
+    background: $background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
 }
 
-h1 {
-    color: green;
+
+.container {
+    background: $primary-color;
+    padding: 300px 500px;
+    border-radius: 10px;
+    
+}
+
+.header {
+  background: $secondary-color;
+
 }
